@@ -1081,7 +1081,6 @@ class Network:
         ax.set(xlim=xlim, ylim=ylim, zlim=zlim,
                xlabel='X', ylabel='Y', zlabel='Z')
         plt.title(title)
-        plt.show()
         
         if current_distribution:
             # Plot problem geometry with current as weight
